@@ -1,0 +1,6 @@
+steps:
+ - command: echo "pipeline started" 
+   label: "Build"
+   plugins:
+     - docker-compose#v3.9.0:
+         run: redis
