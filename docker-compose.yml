@@ -1,7 +1,5 @@
-version: '2'
+version: '3.4'
+
 services:
-  dotnet:
-    build: .
-    volumes:
-      - "./:c:/app"
-    working_dir: c:/app
+ redis:
+  build: .
